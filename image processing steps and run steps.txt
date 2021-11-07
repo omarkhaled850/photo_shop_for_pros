@@ -1,0 +1,80 @@
+Name : Omar Khaled Mohammed 
+ID   : 17703
+sec  : 3
+
+program details:
+	language                          : python (3.8)
+	image processing framwork 		  : opencv (cv2)
+	graphical user interface framwork : QT5
+	
+what the toolbox do :
+
+***Image Operations***
+gray scale
+Image flip(around x, around y, around x&y)
+Image rotation (at any degree)
+Image skewing
+Image translation
+Image crop
+Scaling (zoom in or zoom out)
+
+***Image Enhancement***
+***1) Point Processing***
+-Brightness Increase(Log transformation Power(gama) transformation)
+
+-Histogram equalization
+-Brightness decrease(Log transformation Power(gama) transformation)
+-Image negative
+-bit slicing
+-gray level slicing
+
+**2) Neighborhood operations Processing**
+-Smoothing(traditional 3*3 filter, pyramidal filter, circular filter, cone filter, median blur)
+-Sharpening(sobel)
+
+***Image Segmentation***
+Image Segmentation
+
+
+
+1st image (x1):
+	1- run the program
+	2- from menubar -> file -> open 
+	3- choose the image and click OK
+	4- from image operation -> gray scale "the output wil be displayed in the same window"
+	5- from image operation -> flip image -> type "x" in the dialog box text field  "the output wil be displayed in the same window"
+	6- from image operation -> crop ->  type "300" on from row dialog
+										type "500" on to row dialog
+										type "300" on from col dialog
+										type "500" on to col dialog
+										click "OK" in every step
+	7- then the image is ready
+	
+	
+ 2nd image (x2):
+	1- run the program
+	2- from menubar -> file -> open 
+	3- choose the image and click OK
+	4- from image operation -> gray scale                                                "the output wil be displayed in the same window"
+	5- from image operation -> rotate image -> type "90.0" in the dialog box text field  "the output wil be displayed in the same window"
+	6- from image enhancement -> click Histogram equalization                            "the output wil be displayed in the same window"
+	7- then the image is ready
+
+
+
+
+How to run the program: 
+	
+	1- I have made an exe package ready to run without installing any thing
+		-in the toolbox file open "exe file" folder then "dist" run "main.exe"
+	2- If the exe did not follow the step to setup the required software
+		steps:
+			1- you will find the python installer in the folder "installation" install it and make sure the you add python to PATH
+			2- a restart may be required
+			3- open the command prompt in the toolbox file and copy and past the follewing line 
+			   "pip install opencv-python PyQt5 imutils pyqt5-tools" you may need to type "y" and click inter to confirm
+			4- after the installation type "python main.py" to RUN the program
+
+
+
+
