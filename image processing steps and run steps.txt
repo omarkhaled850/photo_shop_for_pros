@@ -1,6 +1,3 @@
-Name : Omar Khaled Mohammed 
-ID   : 17703
-sec  : 3
 
 program details:
 	language                          : python (3.8)
